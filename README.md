@@ -1,2 +1,41 @@
-# SalesData-PowerQueryPowerPivot
+# Sales Data
+
 ETL using Power Query and Power Pivot
+
+ETL stands for **Extract, Transform and Load** - it is a data integration process that combines, cleans and organizes data from multiple sources into a single, consistent data set and prepare it for storage and data analytics.
+## Steps
+
+- Loaded data from different sources (excel, csv and text files):
+
+![Data](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Data.JPG)
+
+- Performed transformations on Power Query:
+
+![PowerQuery](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/PoweQuery.JPG)
+
+- Loaded the data on Excel adding some tables to the Model (to allow access to the data) and leaving some tables as "connection only" (because they are only needed for transformation).
+
+![Connections](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Connections.JPG)
+
+- Created the relationship between the tables using Power Pivot:
+
+![Diagram](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/DiagramView.JPG)
+
+- Created Calculated Measures using DAX (Data Analysis Expressions):
+
+![Measures](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Measures.JPG)
+
+- Used Pivot Tables and Pivot Charts to create a report:
+
+![Report](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Report.JPG)
+
+## Considerations
+
+- The raw data on the source files can be updated anytime and the new information will be transformed and refreshed automatically.
+## Author 👋
+
+- [@anapsoliveira](https://www.github.com/anapsoliveira)
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/anapsoliveira)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anapsoliveira/)
