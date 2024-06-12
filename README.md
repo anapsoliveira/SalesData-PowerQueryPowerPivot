@@ -17,7 +17,11 @@ ETL stands for **Extract, Transform and Load** - it is a data integration proces
 
 ![Connections](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Connections.JPG)
 
-- Created the relationship between the tables using Power Pivot:
+- Using Power Pivot
+
+  1- As a best practice, created a Calendar table to utilise Time Intelligence functions. In Power Pivot, there is a function that automatically scans the entire dataset and generates the appropriate date table.
+
+  2- Created the relationship between the tables:
 
 ![Diagram](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/DiagramView.JPG)
 
