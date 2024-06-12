@@ -13,6 +13,12 @@ ETL stands for **Extract, Transform and Load** - it is a data integration proces
 
 ![PowerQuery](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/PoweQuery.JPG)
 
+Structured the tables using a Star Schema, centralising the fact table and linking it to multiple dimension tables. Commonly used in data warehousing and business intelligence applications.
+
+  **Fact table:** contains the data that needs to be analysed (they typically have more records and fewer attributes)
+
+  **Dimension tables:** contain the attributes related to the facts (they usually have more attributes and fewer records)
+  
 - Loaded the data on Excel adding some tables to the Model (to allow access to the data) and leaving some tables as "connection only" (because they are only needed for transformation).
 
 ![Connections](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Connections.JPG)
