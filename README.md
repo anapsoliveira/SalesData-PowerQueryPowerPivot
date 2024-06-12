@@ -3,7 +3,7 @@
 ETL using Power Query and Power Pivot
 
 ETL stands for **Extract, Transform and Load** - it is a data integration process that combines, cleans and organizes data from multiple sources into a single, consistent data set and prepare it for storage and data analytics.
-## Steps
+## 🛠 Step by Step 
 
 - Loaded data from different sources (excel, csv and text files):
 
@@ -29,7 +29,7 @@ ETL stands for **Extract, Transform and Load** - it is a data integration proces
 
 ![Report](https://raw.githubusercontent.com/anapsoliveira/SalesData-PowerQueryPowerPivot/main/images/Report.JPG)
 
-## Considerations
+## Advantage
 
 - The raw data on the source files can be updated anytime and the new information will be transformed and refreshed automatically.
 ## Author 👋
